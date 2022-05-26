@@ -218,21 +218,17 @@ footer{
 }
 @media(max-width:700px)
 {
-    .vol-container
-    {
-        flex-direction: column;
-        margin-left:110px;
+    .volunteer-section {
+        height: 100%;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+        text-align: center;
     }
-    .vol-container .cards p {
-        margin: 0px;
-        margin-right:100px;
-        padding-bottom: 4px;
-    }
-    .vol-container .cards .name {
-        color: rgb(38, 41, 41);
-        padding-top: 8px;
-        margin-right:100px;
-        font-size: 20px;
+    .vol-container {
+       flex-direction: column;
+       
     }
 
 }
