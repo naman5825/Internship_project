@@ -216,5 +216,26 @@ footer{
     background-color: rgb(214, 211, 211);
     color: #fff;
 }
+@media(max-width:700px)
+{
+    .vol-container
+    {
+        flex-direction: column;
+        margin-left:110px;
+    }
+    .vol-container .cards p {
+        margin: 0px;
+        margin-right:100px;
+        padding-bottom: 4px;
+    }
+    .vol-container .cards .name {
+        color: rgb(38, 41, 41);
+        padding-top: 8px;
+        margin-right:100px;
+        font-size: 20px;
+    }
+
+}
+
 
 
